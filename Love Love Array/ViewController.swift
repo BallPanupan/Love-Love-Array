@@ -9,7 +9,25 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    
+    @IBOutlet weak var MemberTextField: UITextField!
+    
+    
+    @IBOutlet weak var MemberLabel: UILabel!
+    
+    
+    @IBAction func addButton(_ sender: Any) {
+    }//addButtom
+    
+    
+    
+    
+    
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

@@ -30,14 +30,18 @@ class ViewController: UIViewController {
         //Show member
         //MemberLabel.text = strArrayMember[0]
         
-        var intIndex = 0
+        var intIndex = 1
         var strShow = ""
         
         
         for strShowMyMember in strArrayMember{
-            strShow = strShow + strShowMyMember + "\n"
-            print("strShoe ==> \(strShow)")
-            MemberLabel.text = strShow        }
+            
+            strShow = strShow + "\(intIndex). " + strShowMyMember + "\n"
+            print("strShoe ==> \(strShow) ")
+            MemberLabel.text = strShow
+            
+            intIndex += 1
+        }
         
         
         

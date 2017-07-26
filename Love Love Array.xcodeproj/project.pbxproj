@@ -12,6 +12,7 @@
 		4F0EF2921F2840CB00A3DEA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F0EF2901F2840CB00A3DEA7 /* Main.storyboard */; };
 		4F0EF2941F2840CB00A3DEA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F0EF2931F2840CB00A3DEA7 /* Assets.xcassets */; };
 		4F0EF2971F2840CB00A3DEA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F0EF2951F2840CB00A3DEA7 /* LaunchScreen.storyboard */; };
+		4FB82B7F1F286F040009D527 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4FB82B7E1F286F040009D527 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4F0EF2931F2840CB00A3DEA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F0EF2961F2840CB00A3DEA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F0EF2981F2840CB00A3DEA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FB82B7E1F286F040009D527 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				4F0EF2931F2840CB00A3DEA7 /* Assets.xcassets */,
 				4F0EF2951F2840CB00A3DEA7 /* LaunchScreen.storyboard */,
 				4F0EF2981F2840CB00A3DEA7 /* Info.plist */,
+				4FB82B7E1F286F040009D527 /* README.md */,
 			);
 			path = "Love Love Array";
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FB82B7F1F286F040009D527 /* README.md in Sources */,
 				4F0EF28F1F2840CA00A3DEA7 /* ViewController.swift in Sources */,
 				4F0EF28D1F2840CA00A3DEA7 /* AppDelegate.swift in Sources */,
 			);
@@ -301,6 +305,7 @@
 				4F0EF29D1F2840CB00A3DEA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

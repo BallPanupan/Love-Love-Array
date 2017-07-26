@@ -28,8 +28,16 @@ class ViewController: UIViewController {
         print("strArrayMember after ==> \(strArrayMember)")
         
         //Show member
-        MemberLabel.text = strArrayMember[0]
+        //MemberLabel.text = strArrayMember[0]
         
+        var intIndex = 0
+        var strShow = ""
+        
+        
+        for strShowMyMember in strArrayMember{
+            strShow = strShow + strShowMyMember + "\n"
+            print("strShoe ==> \(strShow)")
+            MemberLabel.text = strShow        }
         
         
         
